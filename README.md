@@ -41,9 +41,9 @@ This project demonstrates an automated ETL pipeline that loads `.csv` files into
 
 ## ▶️ How It Works
 
-1. 🐍 Run the Python script to upload `data.csv` to S3:
+1. 🐍 Run the Python script to upload `customer_full_data.csv` to S3:
    ```bash
-   python upload/upload_csv_to_s3.py
+   python UploadFileToS3.py
 
 2. 🏗️ In Snowflake:
     - Create an external stage to the S3 bucket

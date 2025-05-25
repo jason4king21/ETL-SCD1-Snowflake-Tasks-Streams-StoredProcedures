@@ -5,7 +5,7 @@ This project demonstrates an automated ETL pipeline that loads `.csv` files into
 ---
 
 ## 🧩 Architecture Overview
-![Real-Time Streaming Pipeline](diagrams/architecture.png)
+![SCD1 Pipeline](diagrams/architecture.png)
 
 1. **Anaconda Python Environment**  
    - Reads a `.csv` file from local storage  
